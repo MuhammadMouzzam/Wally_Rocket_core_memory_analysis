@@ -1,0 +1,21 @@
+Running with RISCV=/home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/.conda-env/riscv-tools
+if [ "/home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/lab/directed/transpose.riscv" != "none" ] && [ ! -f "/home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/lab/directed/transpose.riscv" ]; then printf "\n\nBinary /home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/lab/directed/transpose.riscv not found\n\n"; exit 1; fi
+(set -o pipefail &&  /home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/sims/verilator/simulator-chipyard.harness-FastCS152RocketConfig +permissive +dramsim +dramsim_ini_dir=/home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/generators/testchipip/src/main/resources/dramsim2_ini +max-cycles=15000000 +loadmem=/home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/lab/directed/transpose.riscv     +verbose +permissive-off /home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/lab/directed/transpose.riscv  </dev/null 2> >(spike-dasm > /home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/sims/verilator/output/chipyard.harness.TestHarness.FastCS152RocketConfig/transpose.out) | tee /home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/sims/verilator/output/chipyard.harness.TestHarness.FastCS152RocketConfig/transpose.log)
+[UART] UART0 is here (stdin/stdout).
+            cycles : 543241
+           instret : 116041
+             loads : 16389
+            stores : 16412
+           I$ miss : 5
+   D$ regular miss : 7991
+  D$ prefetch miss : 0
+        D$ release : 7151
+         ITLB miss : 0
+         DTLB miss : 0
+       L2 TLB miss : 0
+          branches : 18720
+       mispredicts : 5577
+load-use interlock : 4324
+        I$ blocked : 167
+        D$ blocked : 335427
+- /home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/sims/verilator/generated-src/chipyard.harness.TestHarness.FastCS152RocketConfig/gen-collateral/TestDriver.v:158: Verilog $finish

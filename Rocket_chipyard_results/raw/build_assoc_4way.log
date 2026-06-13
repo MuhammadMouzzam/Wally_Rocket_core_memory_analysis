@@ -1,0 +1,51 @@
+Running with RISCV=/home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/.conda-env/riscv-tools
+echo "Checking all submodules in generators/ are initialized. Uninitialized submodules will be displayed" ; ! git submodule status /home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/generators | grep ^-
+mkdir -p /home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/sims/verilator/generated-src/chipyard.harness.TestHarness.FastCS152RocketConfig
+Checking all submodules in generators/ are initialized. Uninitialized submodules will be displayed
+mkdir -p /home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/sims/verilator/generated-src/chipyard.harness.TestHarness.FastCS152RocketConfig/
+cp /home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/generators/rocket-chip/src/main/resources/csrc/comlog.cc /home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/sims/verilator/generated-src/chipyard.harness.TestHarness.FastCS152RocketConfig/comlog.cc
+cp: cannot create regular file '/home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/sims/verilator/generated-src/chipyard.harness.TestHarness.FastCS152RocketConfig/comlog.cc': No such file or directory
+make: *** [/home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/cs152.mk:13: /home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/sims/verilator/generated-src/chipyard.harness.TestHarness.FastCS152RocketConfig/comlog.cc] Error 1
+make: *** Waiting for unfinished jobs....
+echo "emittedLineLength=2048,noAlwaysComb,disallowLocalVariables,verifLabels,locationInfoStyle=wrapInAtSquareBracket" > /home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/sims/verilator/generated-src/chipyard.harness.TestHarness.FastCS152RocketConfig/.mfc_lowering_options
+mkdir -p /home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/.classpath_cache/
+cd /home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26 && java -jar /home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/scripts/sbt-launch.jar -Dsbt.ivy.home=/home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/.ivy2 -Dsbt.global.base=/home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/.sbt -Dsbt.boot.directory=/home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/.sbt/boot/ -Dsbt.color=always -Dsbt.supershell=false -Dsbt.server.forcestart=true ";project chipyard; set assembly / assemblyOutputPath := file(\"/home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/.classpath_cache/chipyard.jar\"); assembly" && touch /home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/.classpath_cache/chipyard.jar
+Picked up JAVA_TOOL_OPTIONS: -Xmx8G -Xss8M -Djava.io.tmpdir=/home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/.java_tmp
+[0m[[0m[0minfo[0m] [0m[0mwelcome to sbt 1.8.2 (N/A Java 20.0.2-internal)[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project cs152-lab2-sp26-build from plugins.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mloading project definition from /home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/project[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project chipyardRoot from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project testchipip from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project barf from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project constellation from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project icenet from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project hwacha from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project cva6 from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project ibex from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project sodor from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project gemmini from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project tapeout from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project fixedpoint from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project sim-build from plugins.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mloading project definition from /home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/sims/firesim/sim/project[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project firesim from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project targetutils from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project midas from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mresolving key references (41633 settings) ...[0m
+[0m[[0m[0minfo[0m] [0m[0mset current project to chipyardRoot (in build file:/home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/)[0m
+[0m[[0m[0minfo[0m] [0m[0mset current project to chipyard (in build file:/home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/)[0m
+[0m[[0m[0minfo[0m] [0m[0mDefining assembly / assemblyOutputPath[0m
+[0m[[0m[0minfo[0m] [0m[0mThe new value will be used by assembly[0m
+[0m[[0m[0minfo[0m] [0m[0mReapplying settings...[0m
+[0m[[0m[0minfo[0m] [0m[0mset current project to chipyard (in build file:/home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/)[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/generators/chipyard/target/scala-2.13/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[33mwarn[0m] [0m[0mmultiple main classes detected: run 'show discoveredMainClasses' to see the list[0m
+[0m[[0m[0minfo[0m] [0m[0m185 file(s) merged using strategy 'Rename (Custom)' (Run the task at debug level to see the details)[0m
+[0m[[0m[0minfo[0m] [0m[0m61 file(s) merged using strategy 'Rename' (Run the task at debug level to see the details)[0m
+[0m[[0m[0minfo[0m] [0m[0m169 file(s) merged using strategy 'Discard' (Run the task at debug level to see the details)[0m
+[0m[[0m[0minfo[0m] [0m[0m4 file(s) merged using strategy 'FilterDistinctLines' (Run the task at debug level to see the details)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuilt: /home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/.classpath_cache/chipyard.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mJar hash: 9d83d7be34239df19abb6af455f1d5dfa6583bdd[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 23 s, completed Jun 11, 2026, 9:39:37 AM[0m
+[0J

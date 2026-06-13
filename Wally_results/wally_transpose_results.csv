@@ -1,0 +1,7 @@
+implementation,benchmark,mode,block_size,rows,cols,cycles,instructions,cpi,speedup_vs_naive,checksum
+Wally,transpose,naive,0,256,64,433759,83211,5.2128,1.0000,134225920
+Wally,transpose,blocked,2,256,64,404704,214042,1.8908,1.0718,134225920
+Wally,transpose,blocked,4,256,64,277593,129563,2.1425,1.5626,134225920
+Wally,transpose,blocked,8,256,64,215886,101147,2.1344,2.0092,134225920
+Wally,transpose,blocked,16,256,64,443859,90395,4.9102,0.9772,134225920
+Wally,transpose,blocked,32,256,64,436973,84653,5.1619,0.9926,134225920

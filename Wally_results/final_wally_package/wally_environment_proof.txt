@@ -1,0 +1,18 @@
+Wally CEP Environment
+Date: Wed Jun 10 03:54:47 PKT 2026
+
+Wally commit:
+1b2bd93c7394bd45675a47d4adf066a5686ef4b3
+
+Verilator:
+Verilator 5.048 2026-04-26 rev conda-forge build 0
+
+RISC-V GCC:
+riscv64-unknown-elf-gcc () 10.2.0
+
+Wally Verilator flags:
+18:VERILATOR_FLAGS = -Wno-fatal -Wno-IMPLICITSTATIC --assert --no-trace-top --stats
+
+HelloWally proof:
+Hello Wally!
+0 1 2 3 4 5 6 7 8 9 

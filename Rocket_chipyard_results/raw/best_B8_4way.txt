@@ -1,0 +1,32 @@
+Running with RISCV=/home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/.conda-env/riscv-tools
+mkdir -p /home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/.classpath_cache/
+cd /home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26 && java -jar /home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/scripts/sbt-launch.jar -Dsbt.ivy.home=/home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/.ivy2 -Dsbt.global.base=/home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/.sbt -Dsbt.boot.directory=/home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/.sbt/boot/ -Dsbt.color=always -Dsbt.supershell=false -Dsbt.server.forcestart=true ";project tapeout; set assembly / assemblyOutputPath := file(\"/home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/.classpath_cache/tapeout.jar\"); assembly" && touch /home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/.classpath_cache/tapeout.jar
+Picked up JAVA_TOOL_OPTIONS: -Xmx8G -Xss8M -Djava.io.tmpdir=/home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/.java_tmp
+[0m[[0m[0minfo[0m] [0m[0mwelcome to sbt 1.8.2 (N/A Java 20.0.2-internal)[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project cs152-lab2-sp26-build from plugins.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mloading project definition from /home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/project[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project chipyardRoot from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project testchipip from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project barf from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project constellation from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project icenet from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project hwacha from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project cva6 from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project ibex from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project sodor from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project gemmini from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project tapeout from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project fixedpoint from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project sim-build from plugins.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mloading project definition from /home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/sims/firesim/sim/project[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project firesim from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project targetutils from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project midas from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mresolving key references (41633 settings) ...[0m
+[0m[[0m[0minfo[0m] [0m[0mset current project to chipyardRoot (in build file:/home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/)[0m
+[0m[[0m[0minfo[0m] [0m[0mset current project to tapeout (in build file:/home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/)[0m
+[0m[[0m[0minfo[0m] [0m[0mDefining assembly / assemblyOutputPath[0m
+[0m[[0m[0minfo[0m] [0m[0mThe new value will be used by assembly[0m
+[0m[[0m[0minfo[0m] [0m[0mReapplying settings...[0m
+[0m[[0m[0minfo[0m] [0m[0mset current project to tapeout (in build file:/home/mouzzam/CA_CEP/CEP/rocket_chipyard/repo/cs152-lab2-sp26/)[0m
+[0m[[0m[33mwarn[0m] [0m[0mmultiple main classes detected: run 'show discoveredMainClasses' to see the list[0m

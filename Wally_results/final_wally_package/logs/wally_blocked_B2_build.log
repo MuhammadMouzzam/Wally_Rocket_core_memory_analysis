@@ -1,0 +1,2 @@
+riscv64-unknown-elf-gcc -o transpose_cep -gdwarf-2 -O2 -march=rv64gc -mabi=lp64d -mcmodel=medany -nostdlib -static -fno-tree-loop-distribute-patterns -T../common/test.ld -I../common -DMODE=1 -DBLOCK_SIZE=2 transpose_cep.c ../common/crt.S ../common/syscalls.c
+riscv64-unknown-elf-objdump -S -d transpose_cep > transpose_cep.objdump

@@ -1,0 +1,8 @@
+RESULT,mode=blocked,B=4,rows=256,cols=64,cycles=277593,instret=129563,checksum=134225920
+Single Elf file tests are not signatured verified.
+- /home/sohaibliaquat/cvw/testbench/testbench.sv:486: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.048 2026-04-26
+- Verilator: $finish at 6us; walltime 5.516 s; speed 1.082 us/s
+- Verilator: cpu 5.445 s on 1 threads; allocated 326 MB
+Config=rv64gc tests=None sim=verilator gui=False args='' params='' define=''
+Running Verilator on rv64gc transpose_cep
